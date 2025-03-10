@@ -1,0 +1,328 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.irctc_ad{
+    display: flex;
+    justify-content: center;
+    background-image: url(addicted-teenagers-focused-smartphones-obsessed-with-playing-video-games_273609-33197.avif);
+}
+
+/*.product-grid{background-color: papayawhip;}*/
+header { background-color: transparent; transition: background-color 0.3s; }
+header.scrolled { background-color: #333; }
+
+/* Header */
+.header {
+/*    background-color: #2874f0;*/
+/*    color: white;*/
+    background-color: white;
+    color: #2874f0;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-image: url(addicted-teenagers-focused-smartphones-obsessed-with-playing-video-games_273609-33197.avif)
+}
+body.dark-mode { background-color: #222; color: #fff; }
+/*header.dark-mode { background-color: #333; }*/
+
+.header-logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+/*    flex-grow: 5;*/
+    flex-basis: 70%;
+    margin: 0 20px;
+/*    border: 1px solid #ddd;*/
+}
+
+.search-bar input {
+/*    background-color:azure;*/
+    background-color: #f0f5ff;
+/*    color:gray;*/
+    
+    padding: 8px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+/*    border: none;*/
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.header-options button {
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #2874f0;
+    cursor: pointer;
+}
+
+.a {
+    background-color: rgba(241,242,244,1.00);
+    padding: 100px;
+}
+
+.a1{
+    margin-left: 15%;
+/*    margin-top: 100px;*/
+    padding: 20px;
+    background-color: white;
+/*    border-radius: 40px;*/
+/*    border: 0px solid black;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    align-items: center;
+    grid-gap: 20px;
+    height: auto;
+    width:auto;
+/*    border-style: groove;*/
+}
+.a2{
+    margin-right: 15%;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+/*    border-radius: 40px;*/
+/*    border: 10px solid black;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    align-items: center;
+    grid-gap: 20px;
+    height: auto;
+    width:auto;
+/*    border-style: groove;*/
+}
+.a3{
+    margin-left: 15%;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+/*    border-radius: 40px;*/
+/*    border: 10px solid black;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    align-items: center;
+    grid-gap: 20px;
+    height: auto;
+    width:auto;
+/*    border-style: groove;*/
+}
+.a4{
+    margin-right: 15%;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+/*    border-radius: 40px;*/
+/*    border: 10px solid black;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    align-items: center;
+    grid-gap: 20px;
+    height: auto;
+    width:auto;
+/*    border-style: groove;*/
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.product {
+/*
+    background-color: aqua;
+    display: flex;
+    width: 50px;*/
+/*    width: 50px;*/
+/*    background-color: #1b5811;*/
+    color: black;
+    justify-content: space-evenly;
+    
+/*    align-content: space-between;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+/*    flex-basis: 50%;*/
+}
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product p{
+    display:flex;
+/*    flex-direction: column-reverse;*/
+}
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: static;
+    top: 52px;
+}
+
+hr{
+/*    margin: 100px;*/
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+/*    gap: 20px;*/
+}
+
+.navbar ul li {
+    cursor: pointer;
+    border-color: grey;
+    border-width: 5px;
+    flex-basis: 25%;
+    border-style: outset;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navbar ul li:hover{
+    color: grey;
+}
+
+/* Banner */
+.banner{
+    border: 1px solid #ddd;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product p:nth-of-type(2){
+    font-weight: bold;
+}
+
+.jF78FJ{
+    font-size: 12px;
+    background-color: rgba(241,242,244,1.00);
+    padding: 30px;
+    color: #8e8e8e;
+    letter-spacing: 1;
+/*    line-height: 1.3;*/
+}
+.jF78FJ h1{
+    letter-spacing: normal;
+    font-size: 19px;
+    line-height: 2;
+}
+.jF78FJ h2{
+    letter-spacing: normal;
+    font-size: 17px;
+    line-height: 2;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    position: sticky;
+    top: 90000px;
+/*    color: white;*/
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.footer-section {
+    width: 22%;
+    margin: 10px 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: gray;
+    cursor:default;
+}
+.footer-section p {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: gray;
+    cursor:default;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li, address {
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer-section ul li:hover {
+/*    color: #ff9f00;*/
+    text-decoration: underline
+}
+
+.footer-section address {
+    font-style: normal;
+    color: #ddd;
+    line-height: 1.6;
+}

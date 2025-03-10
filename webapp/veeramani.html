@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Image Gallery</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 900px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+        .lightbox.active {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cool Image Gallery</h1>
+    <div class="gallery">
+        <img src="photo1.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo2.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo3.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo4.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo5.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo6.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo7.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo8.jpeg" onclick="openLightbox(this.src)">
+        <img src="photo9.jpeg" onclick="openLightbox(this.src)">
+        <!-- <img src="photo10.jpeg" onclick="openLightbox(this.src)">
+    </div>
+    <div class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="">
+    </div>
+    <h1>And much more on the way  . . .</h1>
+    <script>
+        function openLightbox(src) {
+            document.getElementById('lightbox-img').src = src;
+            document.querySelector('.lightbox').classList.add('active');
+        }
+        function closeLightbox() {
+            document.querySelector('.lightbox').classList.remove('active');
+        }
+    </script>
+</body>
+</html>-->
